@@ -53,6 +53,7 @@
 .list-group-item:hover{
 
   background-color:rgba(126, 252, 0, 0.196);
+  cursor: pointer;
 }
 .list-group-item{
   background-color: #C06027;

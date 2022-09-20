@@ -5,7 +5,11 @@ import { KichenPageComponent } from './components/kichen-page/kichen-page.compon
 
 const routes: Routes = [
   {path: '', component: HomeScreenComponent},
-  {path: 'kichen', component: KichenPageComponent}
+
+  {
+    path: 'receitas',
+    loadChildren: () => import('./components/kichen-page/route/kichen-page.module').then((m) => m.KichenPageModule)
+  }
 
 ];
 

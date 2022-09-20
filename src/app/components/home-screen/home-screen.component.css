@@ -6,7 +6,7 @@ body{
   background-position: 30% 45%;
   background-size: cover;
 
-} 
+}
 
 main{
   display: flex;
@@ -20,6 +20,7 @@ margin: 50px auto;
   background-color: rgba(112, 109, 109, 0.1);
   backdrop-filter:blur(10px) ;
   -webkit-backdrop-filter: blur(10px);
+  cursor:pointer
 
 }
 .rece{
