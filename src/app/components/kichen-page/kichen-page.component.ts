@@ -5,11 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './kichen-page.component.html',
   styleUrls: ['./kichen-page.component.css']
 })
+
+
 export class KichenPageComponent implements OnInit {
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }

@@ -1,61 +1,65 @@
+
 body{
   background: url(src/assets/pexels-malidate-van-784632.jpg) no-repeat center center fixed;
+
   display: table;
   width: 100%;
   height: 100vh;
   padding: 100px 0;
   background-position: 30% 45%;
   background-size: cover;
+
+  background-position: 10% 10%;
+  background-size: cover;
 }
 main{
-  display: flex;
-  width: 35em;
-  margin: 30px auto;
-
-}
-.cart3{
-
-  background: #ff0000;
-  margin: 0 auto;
-  width: 200px;
-  height: 100px;
-  margin-top: 19em;
-  margin-left: -18.8em;
-  background: url(src/assets/pexels-pixabay-416663.jpg) no-repeat center fixed;
-  width: 100%;
-  height: 31vh;
-  padding: 42px ;
-  background-position: 20% 40%;
-  color: white;
-
-}
-.cart1{
-  background: #ff0000;
-  margin: 0 auto;
-  width: 200px;
-  height: 300px;
-  background: url(src/assets/pexels-maurijn-pach-546945.jpg) no-repeat center center fixed;
-  width: 100%;
-  height: 80vh;
-  padding: 100px 0;
-  background-position: 30% 45%;
-  background-size: cover;
-  color: white;
+ margin: auto;
+ margin-top: 3em;
+ width: 54em;
 }
 
-/*  */
 
 
+.mat-grid-tile {
+  background: lightblue;
 
-.cart2{
-  margin: 0 auto;
-  width: 200px;
-  height: 300px;
-  background: url(src/assets/pexels-valeria-boltneva-1639557.jpg) no-repeat center fixed;
-  width: 100%;
-  height: 50vh;
-  padding: 40px ;
-  background-position: 30% 45%;
-  background-size: cover;
+}
+.container_side{
+  height: 100%;
+  background-image: url('src/assets/macarrao.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50em;
+
+}
+.container_side:hover, .container_right:hover,.container_right2:hover{
+  opacity: 0.9;
+  cursor:pointer
+}
+.container_right2{
+  background-image: url('src/assets/hamburguer.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30em;
+}
+.container_right{
+  margin-left: 50.1%;
+  background-image: url('src/assets/churro.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size:30em;
+}
+.title{
   color: white;
+  margin-top: 10em;
+  margin-left: -5em;
+}
+.title_side{
+  color: white;
+  margin-top: 20em;
+  margin-left: -14em;
+}
+.search_mater
+{
+  background-color: rgb(121, 121, 121);
+  margin-left: 55em;
+  border-radius: 5px;
+  width: 200px;
 }

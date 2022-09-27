@@ -1,8 +1,6 @@
 
 .navbar{
-   background-color: rgba(255, 255, 255, 0.1);
-   backdrop-filter:blur(10px) ;
-   -webkit-backdrop-filter: blur(10px);
+  background-image: linear-gradient( 176.6deg,  rgba(244,105,4,1) 7.4%, rgba(218,92,0,1) 91.9% );
    padding: 20px;
    position: absolute;
    top: 0px;
@@ -20,6 +18,7 @@
 .h1{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: right;
+  cursor:pointer
 }
 
 
